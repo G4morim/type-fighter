@@ -1,0 +1,61 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Container principal */
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.game-header {
+  margin-bottom: 2rem;
+}
+
+.game-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.game-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Área do jogo */
+.game-area {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Componente TypeFighter (mantido do seu código) */
+.fight-area {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ff0000;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+input {
+  padding: 12px;
+  font-size: 18px;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+}
